@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Modules() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-200">
+    <div className="min-h-screen bg-gradient-to-br from-blue-600 to-gray-100">
       <Navbar />
 
       <div className="max-w-5xl mx-auto p-6">

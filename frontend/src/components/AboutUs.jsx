@@ -9,7 +9,7 @@ function AboutUs() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-blue-600 to-blue-50">
       <Navbar />
 
       {/* Center Card */}
@@ -22,7 +22,7 @@ function AboutUs() {
           </h1>
 
           <p className="text-gray-600 mb-6">
-            GS Gihogwe E-Learning System is designed to improve digital learning
+             E-Learning System is designed to improve digital learning
             and help students manage their academic activities easily.
           </p>
 

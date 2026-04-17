@@ -10,7 +10,7 @@ function Exam() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-blue-600 to-blue-50">
       <Navbar />
 
       {/* Center Card */}

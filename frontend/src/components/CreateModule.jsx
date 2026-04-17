@@ -1,5 +1,6 @@
 import { useState } from "react";
 import apiClient from "../api/apiClient";
+import NavBar from "./NavBar";
 export default function CreateModule() {
   const [formData, setFormData] = useState({
     moduleName: "",
@@ -50,7 +51,8 @@ export default function CreateModule() {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center max-w-2xl max-h-screen overflow-y-auto">
+    <div className="min-h-screen bg-gradient-to-br from-blue-600 to-gray-200 p-6">
+    <NavBar />
       <div className="flex flex-col gap-2">
         <h1 className="font-extrabold text-2xl">Create new Module</h1>
       </div>

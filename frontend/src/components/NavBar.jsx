@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 function NavBar() {
   return (
     <nav className="bg-gray-900 text-white shadow-md">
@@ -41,7 +42,12 @@ function NavBar() {
           >
             About Us
           </Link>
-
+          <Link
+            to="/list-modules"
+            className="px-4 py-2 rounded-lg hover:bg-gray-700 transition"
+          >
+            List Modules
+          </Link>
         </div>
       </div>
     </nav>

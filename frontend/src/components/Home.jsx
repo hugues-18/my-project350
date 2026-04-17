@@ -3,7 +3,7 @@ import Navbar from "./NavBar";
 
 function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-gray-100">
+    <div className="min-h-screen bg-gradient-to-br from-blue-600 to-gray-100">
 
       {/* Navbar */}
       <Navbar />
@@ -12,7 +12,7 @@ function Home() {
       <div className="flex flex-col items-center justify-center text-center px-6 py-20">
 
         <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-          Welcome to Gihogwe E-Learning System 🎓
+           E-Learning System 🎓
         </h1>
 
         <p className="text-lg text-gray-600 max-w-2xl">
