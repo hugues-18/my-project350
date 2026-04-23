@@ -6,7 +6,9 @@ import Exam from './components/Exam';
 import AboutUs from './components/AboutUs';
 import CreateModule from './components/CreateModule';
 import ListModules from './components/ListModules';
- 
+import NotFound from './components/NotFound.jsx'; 
+import EditModule from './components/EditModule.jsx';
+
 function App() {
   return (
     <div>
@@ -18,7 +20,10 @@ function App() {
           <Route path='/Exam' element={<Exam />} /> 
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/CreateModule" element={<CreateModule />} />
-           <Route path="/list-modules" element={<ListModules />} />
+          <Route path="/list-modules" element={<ListModules />} />
+          <Route path="/edit-module/:id" element={<EditModule/>}/>
+          <Route path="*" element={<NotFound/>}/>
+
         </Routes>
     
     </Router>

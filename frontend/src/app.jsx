@@ -6,7 +6,9 @@ function App() {
         <BrowserRouter>
         <Routes>
             <Route path="/" element={<CreateModule />} />
+            
             <Route path="/list-modules" element={<ListModules />} />
+          <Route path="*" element={<NotFound/>}/>
         </Routes>
         </BrowserRouter>
     
