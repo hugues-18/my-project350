@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiClient = axios.create({
-    baseURL: "http://localhost:5000",
+    baseURL: "https://e-learning-i67o.onrender.com",
     headers: {
         Accept: "application/json"
     }
